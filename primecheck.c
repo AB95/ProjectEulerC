@@ -10,7 +10,7 @@ char is_prime(unsigned long x)
     if (x <= 3) {return 1;}
     if (!(x%2) || !(x%3)) {return 0;}
 
-    unsigned long long i = 5;
+    unsigned long i = 5;
     int d = 2;
     while (i*i <= x)
     {
