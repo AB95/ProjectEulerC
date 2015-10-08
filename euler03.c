@@ -12,7 +12,7 @@ int main()
     unsigned long long i = 2;
     unsigned long long largest = 0;
 
-    while (!(num%2))
+    while (num%2 == 0)
     {
         num /= 2;
     }
@@ -21,7 +21,7 @@ int main()
 
     while (num > 1 && i < (num+1)/2)
     {
-        if (is_prime(i) && !(num%i))
+        if (is_prime(i) && (num%i == 0))
         {
             num /= i;
             largest = i;
