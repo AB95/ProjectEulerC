@@ -3,10 +3,12 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 int main()
 {
-    unsigned long long len = 2000000;
+    unsigned long long len = 200000000;
     char *nums;
     nums = malloc(len * sizeof(char));
     memset(nums, 0, sizeof(nums));

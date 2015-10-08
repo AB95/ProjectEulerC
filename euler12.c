@@ -30,7 +30,7 @@ int main()
     {
         if (find_divisors(tri_num) > 500)
         {
-            printf("%d\n", tri_num);
+            printf("%li\n", tri_num);
             return 0;
         }
         else

@@ -21,7 +21,7 @@ int main()
 
     while (num > 1 && i < (num+1)/2)
     {
-        if (is_prime(i) && (num%i == 0))
+        if (num%i == 0)
         {
             num /= i;
             largest = i;
